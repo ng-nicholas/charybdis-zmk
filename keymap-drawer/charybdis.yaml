@@ -36,7 +36,7 @@ layers:
   - {t: K, h: RIGHT SHIFT}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT GUI}
-  - ''''
+  - {t: '''', h: Mouse}
   - '-'
   - Z
   - X
@@ -48,13 +48,13 @@ layers:
   - ','
   - .
   - /
-  - '='
-  - {t: LEFT GUI, h: Snipe}
+  - {t: '=', h: Snipe}
+  - {t: LEFT ALT, h: Mouse}
   - {t: SPACE, h: LEFT SHIFT}
   - DEL
   - BACKSPACE
   - {t: SPACE, h: RIGHT SHIFT}
-  - {t: LEFT ALT, h: Mouse}
+  - {t: LEFT WIN, h: Snipe}
   - {t: ENTER, h: LEFT CONTROL}
   - {t: ENTER, h: RIGHT CONTROL}
   Fn_Layer:
@@ -248,7 +248,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -260,6 +260,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
+  - '&mkp MCLK'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -271,8 +272,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
