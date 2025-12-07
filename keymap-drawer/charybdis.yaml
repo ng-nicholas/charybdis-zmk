@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   QWERTY:
-  - ESC
+  - '&td_esc_pscrn'
   - '1'
   - '2'
   - '3'
@@ -40,12 +40,12 @@ layers:
   - '-'
   - Z
   - X
-  - C
+  - {t: C, h: CONTEXT MENU}
   - {t: V, h: Scroll}
   - {t: B, h: BT}
   - {t: N, h: BT}
   - {t: M, h: Scroll}
-  - ','
+  - {t: ',', h: CONTEXT MENU}
   - .
   - /
   - {t: '=', h: Snipe}
@@ -71,9 +71,9 @@ layers:
   - F11
   - F12
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
+  - PLAY PAUSE
+  - PREVIOUS
+  - NEXT
   - ''
   - {t: ▽, type: trans}
   - ''
@@ -83,9 +83,9 @@ layers:
   - '-'
   - '='
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
+  - MUTE
+  - VOL DN
+  - VOL UP
   - ''
   - {type: held}
   - {t: ▽, type: trans}
@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&To0_macro'
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -229,116 +229,116 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '&msc SCRL_UP'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: Mouse, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '&msc SCRL_DOWN'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - {t: Snipe, h: toggle}
+  - {t: Mouse, h: toggle}
+  - ''
+  - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Snipe, h: toggle}
+  - ''
+  - ''
   Snipe:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_UP'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - ''
+  - ''
+  - {t: Mouse, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_DOWN'
+  - ''
+  - ''
+  - ''
+  - {t: Snipe, h: toggle}
+  - {t: Mouse, h: toggle}
+  - ''
+  - ''
   - '&mkp LCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Snipe, h: toggle}
+  - ''
+  - ''
