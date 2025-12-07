@@ -30,24 +30,24 @@ layers:
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
   - {t: F, h: LEFT CONTROL}
-  - {t: G, h: Fn_Layer}
-  - {t: H, h: Fn_Layer}
+  - {t: G, h: CONTEXT MENU}
+  - {t: H, h: CONTEXT MENU}
   - {t: J, h: RIGHT CONTROL}
   - {t: K, h: RIGHT SHIFT}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT GUI}
-  - {t: '''', h: Mouse}
-  - '-'
-  - Z
-  - X
-  - {t: C, h: CONTEXT MENU}
-  - {t: V, h: Scroll}
-  - {t: B, h: BT}
-  - {t: N, h: BT}
-  - {t: M, h: Scroll}
-  - {t: ',', h: CONTEXT MENU}
-  - .
-  - /
+  - ''''
+  - {t: '-', h: Snipe}
+  - {t: Z, h: Mouse}
+  - {t: X, h: Scroll}
+  - {t: C, h: BT}
+  - {t: V, h: Fn_Layer}
+  - B
+  - N
+  - {t: M, h: Fn_Layer}
+  - {t: ',', h: BT}
+  - {t: ., h: Scroll}
+  - {t: /, h: Mouse}
   - {t: '=', h: Snipe}
   - {t: LEFT ALT, h: Mouse}
   - {t: SPACE, h: LEFT SHIFT}
@@ -61,7 +61,7 @@ layers:
   - F1
   - F2
   - F3
-  - F4
+  - '&td_f4_altf4'
   - F5
   - F6
   - F7
@@ -71,33 +71,34 @@ layers:
   - F11
   - F12
   - {t: ▽, type: trans}
+  - Ctl+W
   - PLAY PAUSE
-  - PREVIOUS
+  - PREV
   - NEXT
-  - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - PG UP
   - ''
   - UP ARROW
   - '-'
   - '='
   - {t: ▽, type: trans}
+  - {t: Ctl+S, h: Ctl+Sft+S}
   - MUTE
   - VOL DN
   - VOL UP
-  - ''
-  - {type: held}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
+  - PG DN
   - LEFT
   - DOWN
   - RIGHT
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,13 +106,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
+  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BT:
@@ -130,29 +130,27 @@ layers:
   - {t: ▽, type: trans}
   - BT PRV
   - BT NXT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,11 +162,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Scroll:
@@ -207,9 +207,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -221,18 +219,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mouse:
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - ''
   - ''
@@ -253,10 +249,15 @@ layers:
   - ''
   - ''
   - ''
+  - '&msc SCRL_UP'
   - ''
   - ''
   - ''
   - ''
+  - ''
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  - '&mkp LCLK'
   - ''
   - ''
   - '&mkp LCLK'
@@ -264,18 +265,17 @@ layers:
   - '&mkp RCLK'
   - ''
   - ''
+  - {t: Snipe, h: toggle}
   - {t: Mouse, h: toggle}
   - ''
-  - ''
-  - ''
+  - '&msc SCRL_DOWN'
   - ''
   - ''
   - ''
   - ''
   - '&msc SCRL_DOWN'
   - ''
-  - ''
-  - ''
+  - {t: Mouse, h: toggle}
   - {t: Snipe, h: toggle}
   - {t: Mouse, h: toggle}
   - ''
@@ -301,6 +301,7 @@ layers:
   - ''
   - ''
   - ''
+  - '&msc SCRL_UP'
   - ''
   - ''
   - ''
@@ -311,9 +312,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  - '&mkp LCLK'
   - ''
   - ''
   - '&mkp LCLK'
@@ -321,18 +322,17 @@ layers:
   - '&mkp RCLK'
   - ''
   - ''
+  - {t: Snipe, h: toggle}
   - {t: Mouse, h: toggle}
   - ''
-  - ''
-  - ''
+  - '&msc SCRL_DOWN'
   - ''
   - ''
   - ''
   - ''
   - '&msc SCRL_DOWN'
   - ''
-  - ''
-  - ''
+  - {t: Mouse, h: toggle}
   - {t: Snipe, h: toggle}
   - {t: Mouse, h: toggle}
   - ''
