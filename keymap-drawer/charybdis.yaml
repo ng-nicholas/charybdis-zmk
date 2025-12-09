@@ -50,13 +50,13 @@ layers:
   - {t: /, h: Mouse}
   - {t: '=', h: Snipe}
   - {t: HOME, h: Mouse}
-  - {t: SPACE, h: LEFT SHIFT}
+  - '&td_space_enter'
   - DEL
   - BACKSPACE
-  - {t: SPACE, h: RIGHT SHIFT}
+  - '&td_space_enter'
   - {t: END, h: Snipe}
-  - {t: ENTER, h: LEFT CONTROL}
-  - {t: ENTER, h: RIGHT CONTROL}
+  - {t: RIGHT ARROW, h: UP ARROW}
+  - {t: LEFT ARROW, h: DOWN ARROW}
   Fn_Layer:
   - F1
   - F2
