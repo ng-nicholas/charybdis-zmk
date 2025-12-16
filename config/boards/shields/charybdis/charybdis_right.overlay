@@ -58,6 +58,10 @@
         scroll-layers = <3>;
         snipe-layers = <5>;
       // automouse-layer = <3>;
+      
+        evt-type = <INPUT_EV_REL>;
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
     };
 };
 
