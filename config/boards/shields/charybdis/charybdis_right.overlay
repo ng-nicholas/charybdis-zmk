@@ -115,6 +115,11 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
+        // Scroll mode (SCROLL layer)
+        scroll {
+            layers = <3>;
+            input-processors = <&zip_xy_scaler 1 10>;  // Adjust scroll speed
+        };
     };
 };
 
