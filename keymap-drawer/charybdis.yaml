@@ -132,7 +132,7 @@ layers:
   - BT NXT
   - BT CLR
   - BT CLR ALL
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - PLAY PAUSE
   - PREV
